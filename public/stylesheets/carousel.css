@@ -18,7 +18,8 @@ body {
   border-radius: 6px;
 }
 
-.swiper-container .swiper-wrapper {
+.swiper-container .swiper-wrapper {  
+  padding-top: 50px;  
   height: auto !important;
 }
 
