@@ -24,7 +24,7 @@
     <meta property="og:description" content="Todo para la fabricación del calzado y todas las marcas" />    
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://almacendesuelaslopez.netlify.app/" />
-    <meta property="og:image" content="http://pymesoft.com.ar/images/lopez.png"/>
+    <meta property="og:image" content="https://almacendesuelaslopez.netlify.app/public/assets/img/logo.png"/>
     <meta property="og:image:type" content="image/png" /> 
     <meta property="og:image:width" content="285" /> 
     <meta property="og:image:height" content="156" />    
@@ -33,8 +33,10 @@
     <title>Inicio | Almacén de Suelas Lopez</title>
 
     <style>
-      body {
-        padding-top: 3rem;}
+    .jumbotron {
+      background-color: lightgreen;
+      color: green; 
+      margin-top: 50px;}
 
       .marketing .col-lg-4 {
         margin-bottom: 1.5rem;
@@ -152,14 +154,13 @@
         .featurette-heading {
           margin-top: 7rem;
         }
-      }
+      }      
   </style>  
 
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.html"><img src="public/assets/img/favicon.png" width="55" height="30" class="d-inline-block align-top" alt="Logo"></a>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -169,11 +170,32 @@
               <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="marcas.html">Marcas</a>
+            </li>            
+            <li class="nav-item">
               <a class="nav-link" href="contacto.html">Contacto</a>
             </li>
           </ul>
         </div>
+        <span class="navbar-text">
+          Hace tu pedido <img src="public/assets/img/whatsapp.png" height="15px" width="15px"><a href="https://wa.me/5491132407267?text=Consulta%20web%20almacen%20de%20suelas%20lopez">&nbsp;11 3240-7267</a>
+        </span>        
       </nav>
+      <div class="jumbotron">      
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="index.html"><img src="public/assets/img/favicon.png" alt="Logo"></a>
+            </div>            
+            <div class="col-md-6">
+              <h2>Insumos para la industria del calzado</h2>
+            </div>
+          </div>
+        </div>        
+      </div>                             
     </header>
     
     <main role="main">      
@@ -206,7 +228,9 @@
           <div class="col-lg-4">
             <a href="tel:01146554883" ><img class="rounded-circle" src="public/assets/img/call.png" alt="Llamanos" width="140" height="140"></a>
             <h2>Llamanos</h2>
-            <p><a href="tel:01146554883">&nbsp;011 4655-4883</a></p>
+            <p><img src="public/assets/img/whatsapp2.png" height="15px" width="15px"><a href="https://wa.me/5491132407267?text=Consulta%20web%20almacen%20de%20suelas%20lopez">&nbsp;11 3240-7267</a></p>
+            <p><img src="public/assets/img/call2.png" height="15px" width="15px"><a href="tel:46554883">&nbsp;4655-4883</a></p>
+            <p><img src="public/assets/img/call2.png" height="15px" width="15px"><a href="tel:46526318">&nbsp;4652-6318</a></p>
           </div>
           <div class="col-lg-4">
             <a href="https://goo.gl/maps/zjmcCCYxM6RGAkqNA" target="_blank"><img class="rounded-circle" src="public/assets/img/map.png" alt="Encontranos" width="140" height="140"></a>
@@ -223,12 +247,12 @@
       </div>
 
       <!-- FOOTER -->
-      <footer class="footer page-footer font-small cyan darken-3 text-center">
+      <footer class="footer page-footer font-small cyan darken-3 bg-success text-center">
         <div class="container">
           <div class="row">
             <div class="col-md-12 py-5">
               <div class="mb-5 flex-center">
-                <a class="fb-ic" href="https://www.facebook.com/" target="_blank">
+                <a class="fa-ic" href="https://www.facebook.com/" target="_blank">
                   <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                 </a>
                 <a class="ins-ic" href="https://www.instagram.com/" target="_blank">
@@ -252,7 +276,7 @@
     <script type="text/javascript">
       (function () {
           var options = {
-              whatsapp: "+5491132024236", // WhatsApp number
+              whatsapp: "+5491132407267", // WhatsApp number
               call_to_action: "Consultanos", // Call to action
               position: "right", // Position may be 'right' or 'left'
           };
