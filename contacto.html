@@ -35,19 +35,20 @@
     <link href="public/stylesheets/bootstrap.min.css" rel="stylesheet">
     
     <style>
-    .jumbotron {
-      background-color: lightgreen;
-      color: green; 
-      margin-top: 50px;}   
-
     .footer {      
       margin-top: 10px;}             
     </style>
   </head>
 
-  <body class="bg-light">
+  <body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success">
+      <nav class="navbar">
+        <a class="navbar-brand" href="index.html">
+          <img src="public/assets/img/logo.png" style="max-height: 80px;" alt="Logo">
+        </a>
+        <h2 style="color:green; text-align: right;">Insumos para la industria del calzado</h2>
+      </nav>                    
+      <nav class="navbar navbar-expand-md navbar-dark bg-success">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -67,25 +68,13 @@
             </li>
           </ul>
         </div>
-        <span class="navbar-text">
+        <span class="navbar-text" style="color: white;">
           Hace tu pedido <img src="public/assets/img/whatsapp.png" height="15px" width="15px"><a href="https://wa.me/5491132407267?text=Consulta%20almacen%20de%20suelas%20lopez">&nbsp;11 3240-7267</a>
         </span>                
       </nav>
-      <div class="jumbotron">      
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <a href="index.html"><img src="public/assets/img/favicon.png" alt="Logo"></a>
-            </div>            
-            <div class="col-md-6">
-              <h2>Insumos para la industria del calzado</h2>
-            </div>
-          </div>
-        </div>        
-      </div>                             
     </header>   
     <div class="container">
-      <nav aria-label="breadcrumb">
+      <nav aria-label="breadcrumb" style="margin-top: 10px;">
         <ol class="breadcrumb">
           <li class="breadcrumb-item" aria-current="page"><a href="./index.html">Inicio</a></li>              
           <li class="breadcrumb-item active" aria-current="page">Contacto</li>              
@@ -159,7 +148,7 @@
     <footer class="footer page-footer font-small cyan darken-3 bg-success text-center">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 py-5">
+          <!--<div class="col-md-12 py-5">
             <div class="mb-5 flex-center">
               <a class="fb-ic" href="https://www.facebook.com/" target="_blank">
                 <i class="fa fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
@@ -171,7 +160,7 @@
                 <i class="fa fa-google fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
               </a>
             </div>
-          </div>
+          </div>-->
         </div>
       </div>
       <div class="footer-copyright text-center py-3">© 2020 Copyright
